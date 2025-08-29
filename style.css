@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NavBar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  height: 80px;
+}
+
+.nav-left img {
+  height: 60px;
+}
+
+.nav-center {
+  display: flex;
+  gap: 30px;
+  font-size: 1.1rem;
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: rgb(57, 57, 57);
+}
+
+.nav-right {
+  font-size: 1.3rem;
+  color: rgb(37, 204, 255);
+  font-weight: bold;
+  font-family: monospace;
+  font-style: italic;
+  background-color: rgba(37, 204, 255, 0.151);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  height: 78vh;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-left {
+  padding-left: 100px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.hero-left h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: rgb(74, 74, 74);
+}
+
+.hero-left h1 span {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: rgb(37, 204, 255);
+}
+
+.hero-left p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: rgb(121, 121, 121);
+}
+
+.hero-left button {
+  padding: 12px 25px;
+  width: fit-content;
+  background: rgb(37, 204, 255);
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+
+.hero-left button:hover {
+  background: white;
+  border: 1px solid rgb(37, 204, 255);
+  color: rgb(37, 204, 255);
+}
+
+.hero-right img {
+  max-width: 380px;
+  border-radius: 10px;
+}
